@@ -59,6 +59,7 @@ use InvalidArgumentException;
  */
 abstract class Command
 {
+    protected $url;
     protected $jsonParameters;
     private $commandName;
 
